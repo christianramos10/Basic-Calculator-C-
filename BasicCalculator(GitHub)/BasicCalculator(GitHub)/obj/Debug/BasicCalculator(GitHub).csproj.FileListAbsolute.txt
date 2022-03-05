@@ -1,0 +1,11 @@
+C:\Users\Chris\Documents\GitHub\BasicCalculator\BasicCalculator(GitHub)\BasicCalculator(GitHub)\bin\Debug\BasicCalculator(GitHub).exe.config
+C:\Users\Chris\Documents\GitHub\BasicCalculator\BasicCalculator(GitHub)\BasicCalculator(GitHub)\bin\Debug\BasicCalculator(GitHub).exe
+C:\Users\Chris\Documents\GitHub\BasicCalculator\BasicCalculator(GitHub)\BasicCalculator(GitHub)\bin\Debug\BasicCalculator(GitHub).pdb
+C:\Users\Chris\Documents\GitHub\BasicCalculator\BasicCalculator(GitHub)\BasicCalculator(GitHub)\obj\Debug\BasicCalculator(GitHub).csproj.AssemblyReference.cache
+C:\Users\Chris\Documents\GitHub\BasicCalculator\BasicCalculator(GitHub)\BasicCalculator(GitHub)\obj\Debug\BasicCalculator(GitHub).csproj.SuggestedBindingRedirects.cache
+C:\Users\Chris\Documents\GitHub\BasicCalculator\BasicCalculator(GitHub)\BasicCalculator(GitHub)\obj\Debug\BasicCalculator_GitHub_.Properties.Resources.resources
+C:\Users\Chris\Documents\GitHub\BasicCalculator\BasicCalculator(GitHub)\BasicCalculator(GitHub)\obj\Debug\BasicCalculator(GitHub).csproj.GenerateResource.cache
+C:\Users\Chris\Documents\GitHub\BasicCalculator\BasicCalculator(GitHub)\BasicCalculator(GitHub)\obj\Debug\BasicCalculator(GitHub).csproj.CoreCompileInputs.cache
+C:\Users\Chris\Documents\GitHub\BasicCalculator\BasicCalculator(GitHub)\BasicCalculator(GitHub)\obj\Debug\BasicCalculator(GitHub).exe
+C:\Users\Chris\Documents\GitHub\BasicCalculator\BasicCalculator(GitHub)\BasicCalculator(GitHub)\obj\Debug\BasicCalculator(GitHub).pdb
+C:\Users\Chris\Documents\GitHub\BasicCalculator\BasicCalculator(GitHub)\BasicCalculator(GitHub)\obj\Debug\BasicCalculator_GitHub_.Calculator.resources
