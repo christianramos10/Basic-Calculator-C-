@@ -1,2 +1,2 @@
-# Basic-Calculator-C-
+# Basic Calculator
 Basic Calculator for practicing C#. 
