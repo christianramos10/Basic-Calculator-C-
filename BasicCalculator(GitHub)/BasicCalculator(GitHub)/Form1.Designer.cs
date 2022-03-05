@@ -47,8 +47,8 @@
             this.nineButton = new System.Windows.Forms.Button();
             this.divButton = new System.Windows.Forms.Button();
             this.cEntryButton = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.textBox = new System.Windows.Forms.TextBox();
+            this.operationLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // ceroButton
@@ -60,6 +60,7 @@
             this.ceroButton.TabIndex = 0;
             this.ceroButton.Text = "0";
             this.ceroButton.UseVisualStyleBackColor = true;
+            this.ceroButton.Click += new System.EventHandler(this.number_clicked);
             // 
             // decimalButton
             // 
@@ -80,6 +81,7 @@
             this.plusButton.TabIndex = 3;
             this.plusButton.Text = "+";
             this.plusButton.UseVisualStyleBackColor = true;
+            this.plusButton.Click += new System.EventHandler(this.operat_clicked);
             // 
             // equalsButton
             // 
@@ -90,6 +92,7 @@
             this.equalsButton.TabIndex = 4;
             this.equalsButton.Text = "=";
             this.equalsButton.UseVisualStyleBackColor = true;
+            this.equalsButton.Click += new System.EventHandler(this.equalsButton_Click);
             // 
             // oneButton
             // 
@@ -100,6 +103,7 @@
             this.oneButton.TabIndex = 5;
             this.oneButton.Text = "1";
             this.oneButton.UseVisualStyleBackColor = true;
+            this.oneButton.Click += new System.EventHandler(this.number_clicked);
             // 
             // twoButton
             // 
@@ -110,6 +114,7 @@
             this.twoButton.TabIndex = 6;
             this.twoButton.Text = "2";
             this.twoButton.UseVisualStyleBackColor = true;
+            this.twoButton.Click += new System.EventHandler(this.number_clicked);
             // 
             // threeButton
             // 
@@ -120,6 +125,7 @@
             this.threeButton.TabIndex = 7;
             this.threeButton.Text = "3";
             this.threeButton.UseVisualStyleBackColor = true;
+            this.threeButton.Click += new System.EventHandler(this.number_clicked);
             // 
             // minusButton
             // 
@@ -130,6 +136,7 @@
             this.minusButton.TabIndex = 8;
             this.minusButton.Text = "-";
             this.minusButton.UseVisualStyleBackColor = true;
+            this.minusButton.Click += new System.EventHandler(this.operat_clicked);
             // 
             // fourButton
             // 
@@ -140,6 +147,7 @@
             this.fourButton.TabIndex = 10;
             this.fourButton.Text = "4";
             this.fourButton.UseVisualStyleBackColor = true;
+            this.fourButton.Click += new System.EventHandler(this.number_clicked);
             // 
             // fiveButton
             // 
@@ -150,6 +158,7 @@
             this.fiveButton.TabIndex = 11;
             this.fiveButton.Text = "5";
             this.fiveButton.UseVisualStyleBackColor = true;
+            this.fiveButton.Click += new System.EventHandler(this.number_clicked);
             // 
             // sixButton
             // 
@@ -160,6 +169,7 @@
             this.sixButton.TabIndex = 12;
             this.sixButton.Text = "6";
             this.sixButton.UseVisualStyleBackColor = true;
+            this.sixButton.Click += new System.EventHandler(this.number_clicked);
             // 
             // multButton
             // 
@@ -170,6 +180,7 @@
             this.multButton.TabIndex = 13;
             this.multButton.Text = "*";
             this.multButton.UseVisualStyleBackColor = true;
+            this.multButton.Click += new System.EventHandler(this.operat_clicked);
             // 
             // clearButton
             // 
@@ -180,6 +191,7 @@
             this.clearButton.TabIndex = 14;
             this.clearButton.Text = "C";
             this.clearButton.UseVisualStyleBackColor = true;
+            this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
             // 
             // sevenButton
             // 
@@ -190,6 +202,7 @@
             this.sevenButton.TabIndex = 15;
             this.sevenButton.Text = "7";
             this.sevenButton.UseVisualStyleBackColor = true;
+            this.sevenButton.Click += new System.EventHandler(this.number_clicked);
             // 
             // eightButton
             // 
@@ -200,6 +213,7 @@
             this.eightButton.TabIndex = 16;
             this.eightButton.Text = "8";
             this.eightButton.UseVisualStyleBackColor = true;
+            this.eightButton.Click += new System.EventHandler(this.number_clicked);
             // 
             // nineButton
             // 
@@ -210,6 +224,7 @@
             this.nineButton.TabIndex = 17;
             this.nineButton.Text = "9";
             this.nineButton.UseVisualStyleBackColor = true;
+            this.nineButton.Click += new System.EventHandler(this.number_clicked);
             // 
             // divButton
             // 
@@ -220,6 +235,7 @@
             this.divButton.TabIndex = 18;
             this.divButton.Text = "/";
             this.divButton.UseVisualStyleBackColor = true;
+            this.divButton.Click += new System.EventHandler(this.operat_clicked);
             // 
             // cEntryButton
             // 
@@ -230,33 +246,34 @@
             this.cEntryButton.TabIndex = 19;
             this.cEntryButton.Text = "CE";
             this.cEntryButton.UseVisualStyleBackColor = true;
+            this.cEntryButton.Click += new System.EventHandler(this.cEntryButton_Click);
             // 
-            // textBox1
+            // textBox
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(7, 38);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(330, 26);
-            this.textBox1.TabIndex = 20;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox.Location = new System.Drawing.Point(12, 38);
+            this.textBox.Name = "textBox";
+            this.textBox.Size = new System.Drawing.Size(324, 29);
+            this.textBox.TabIndex = 20;
+            this.textBox.Text = "0";
+            this.textBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label1
+            // operationLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 20);
-            this.label1.TabIndex = 21;
-            this.label1.Text = "label1";
+            this.operationLabel.AutoSize = true;
+            this.operationLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.operationLabel.Location = new System.Drawing.Point(12, 9);
+            this.operationLabel.Name = "operationLabel";
+            this.operationLabel.Size = new System.Drawing.Size(0, 20);
+            this.operationLabel.TabIndex = 21;
             // 
             // Calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(349, 338);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.operationLabel);
+            this.Controls.Add(this.textBox);
             this.Controls.Add(this.cEntryButton);
             this.Controls.Add(this.divButton);
             this.Controls.Add(this.nineButton);
@@ -305,8 +322,8 @@
         private System.Windows.Forms.Button nineButton;
         private System.Windows.Forms.Button divButton;
         private System.Windows.Forms.Button cEntryButton;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox;
+        private System.Windows.Forms.Label operationLabel;
     }
 }
 
