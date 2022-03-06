@@ -41,10 +41,23 @@ namespace BasicCalculator_GitHub_
         private void operat_clicked(object sender, EventArgs e)
         {
             Button button = (Button)sender;
-            operation = button.Text;
-            result = Double.Parse(textBox.Text);
-            operationLabel.Text = result + " " + operation;
-            operationPerformed = true;
+
+            //This will change textbox number as we perform multiple operations.
+            if (result != 0)
+            {
+                equalsButton.PerformClick();
+                operation = button.Text;
+                operationLabel.Text = result + " " + operation;
+                operationPerformed = true;
+            }
+            else 
+            {
+                operation = button.Text;
+                result = Double.Parse(textBox.Text);
+                operationLabel.Text = result + " " + operation;
+                operationPerformed = true;
+
+            }
         }
 
         private void cEntryButton_Click(object sender, EventArgs e)
@@ -82,6 +95,12 @@ namespace BasicCalculator_GitHub_
 
 
             }
+
+            //This will change the label on top of text box as we perform multiple operations.
+            result = Double.Parse(textBox.Text);
+            operationLabel.Text = result + " " + operation;
         }
+
+
     }
 }
